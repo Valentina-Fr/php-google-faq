@@ -49,7 +49,7 @@ $faq = [
 <body>
     <article>
         <?php foreach ($faq as $faq_item) { ?>
-        <h2><strong><?php echo $faq_item["question"]; ?></strong></h2>
+        <h2><?php echo $faq_item["question"]; ?></h2>
         <?php echo $faq_item["answer"];
         } ?>
     </article>
